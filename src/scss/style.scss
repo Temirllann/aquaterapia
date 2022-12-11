@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap");
+
+:root {
+    --bg-color: #162831;
+    --bc--color: #018abe;
+}
+[class*="__container"] {
+    max-width: 1920px;
+    padding: 10px;
+    margin: 0 auto;
+
+    font-family: "El Messiri", sans-serif;
+    font-style: normal;
+    background-color: #162831;
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--bg-color);
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.header {
+    height: 60px;
+    padding: clamp(1.25rem, 0.886rem + 1.82vw, 2.5rem) 0;
+    &__navigation {
+        font-family: "Proxima Nova";
+        font-style: normal;
+    }
+    .menu {
+        &__link:hover {
+            transition: 0.2s;
+            color: aquamarine;
+            width: 1298px;
+            font-family: "Proxima Nova";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 135%;
+            cursor: pointer;
+        }
+        &__item {
+            color: #fff;
+        }
+        &__body {
+            color: #ffffff;
+            display: flex;
+            gap: 50px;
+            margin-left: 586px;
+            margin-top: -50px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 135%;
+            color: #ffffff;
+        }
+    }
+    &__button {
+        position: absolute;
+        margin-top: -43px;
+        margin-left: 1455px;
+    }
+    &__btn {
+        cursor: pointer;
+        width: 155px;
+        height: 36px;
+        left: 1455px;
+        top: 43px;
+        background: #018abe;
+        border-radius: 3px;
+        border: 0;
+        font-family: "Proxima Nova";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 140%;
+        color: #ffffff;
+        font-family: "Proxima Nova";
+        font-style: normal;
+    }
+    &__logo {
+        cursor: pointer;
+        margin-left: 312px;
+        margin-top: 30px;
+    }
+}
+.aqua {
+    &__container {
+        height: 600px;
+    }
+    &__fon {
+        position: absolute;
+        width: 1296px;
+        height: 600px;
+        margin-left: 312px;
+        margin-top: 40px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__p {
+        margin-top: -480px;
+    }
+    &__title1 {
+        font-family: "El Messiri";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 140%;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__h1 {
+        margin-top: -10px;
+    }
+}
+.sessions {
+    height: 699px;
+    &__title {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 140%;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 150px;
+    }
+    &__image {
+        display: flex;
+        justify-content: center;
+        gap: 570px;
+        margin-top: -95px;
+    }
+    &__back {
+        width: 416px;
+        height: 540px;
+        margin-left: 312px;
+        margin-top: 100px;
+    }
+    &__p {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: #ffffff;
+        margin-left: 362px;
+        margin-top: -80px;
+    }
+    &__backgrounds {
+        display: flex;
+        gap: 24px;
+    }
+    &__back {
+        width: 416px;
+        height: 540px;
+    }
+    &__backgrounds1 {
+        cursor: pointer;
+    }
+    &__backgrounds2 {
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    &__p2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: #ffffff;
+        margin-top: -65px;
+        margin-left: 30px;
+    }
+    &__backgrounds3 {
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    &__p3 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: #ffffff;
+        margin-top: -100px;
+        margin-left: 30px;
+    }
+    &__backgrounds4 {
+        cursor: pointer;
+        margin-top: 382px;
+        margin-left: -880px;
+    }
+    &__p4 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: #ffffff;
+        margin-top: -65px;
+        margin-left: 30px;
+    }
+    &__backgrounds5 {
+        cursor: pointer;
+        margin-top: 382px;
+    }
+    &__p5 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: #ffffff;
+        margin-top: -100px;
+        margin-left: 30px;
+    }
+}
+.reviews {
+    &__container {
+        height: 585px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 140%;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 200px;
+    }
+    &__images {
+        display: flex;
+        justify-content: center;
+        gap: 244px;
+        margin-top: -80px;
+    }
+}
+
+.about {
+    &__title {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 140%;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__mg {
+        font-family: "Proxima Nova";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: #ffffff;
+    }
+    &__span {
+        font-family: "Proxima Nova";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 140%;
+        color: #ffffff;
+    }
+    &__span2{
+        font-family: "Proxima Nova";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 140%;
+        color: #ffffff;
+        margin-top: 120px;
+    }
+    &__massage{
+        gap: 20px;
+    }
+}

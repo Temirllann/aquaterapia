@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap");
+:root {
+  --bg-color: #162831;
+  --bc--color: #018abe;
+}
+
+[class*=__container] {
+  max-width: 1920px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: "El Messiri", sans-serif;
+  font-style: normal;
+  background-color: #162831;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 60px;
+  padding: clamp(1.25rem, 0.886rem + 1.82vw, 2.5rem) 0;
+}
+.header__navigation {
+  font-family: "Proxima Nova";
+  font-style: normal;
+}
+.header .menu__link:hover {
+  transition: 0.2s;
+  color: aquamarine;
+  width: 1298px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  cursor: pointer;
+}
+.header .menu__item {
+  color: #fff;
+}
+.header .menu__body {
+  color: #ffffff;
+  display: flex;
+  gap: 50px;
+  margin-left: 586px;
+  margin-top: -50px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #ffffff;
+}
+.header__button {
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 1455px;
+}
+.header__btn {
+  cursor: pointer;
+  width: 155px;
+  height: 36px;
+  left: 1455px;
+  top: 43px;
+  background: #018abe;
+  border-radius: 3px;
+  border: 0;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140%;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-style: normal;
+}
+.header__logo {
+  cursor: pointer;
+  margin-left: 312px;
+  margin-top: 30px;
+}
+
+.aqua__container {
+  height: 600px;
+}
+.aqua__fon {
+  position: absolute;
+  width: 1296px;
+  height: 600px;
+  margin-left: 312px;
+  margin-top: 40px;
+}
+.aqua__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.aqua__p {
+  margin-top: -480px;
+}
+.aqua__title1 {
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.aqua__h1 {
+  margin-top: -10px;
+}
+
+.sessions {
+  height: 699px;
+}
+.sessions__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 150px;
+}
+.sessions__image {
+  display: flex;
+  justify-content: center;
+  gap: 570px;
+  margin-top: -95px;
+}
+.sessions__back {
+  width: 416px;
+  height: 540px;
+  margin-left: 312px;
+  margin-top: 100px;
+}
+.sessions__p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-left: 362px;
+  margin-top: -80px;
+}
+.sessions__backgrounds {
+  display: flex;
+  gap: 24px;
+}
+.sessions__back {
+  width: 416px;
+  height: 540px;
+}
+.sessions__backgrounds1 {
+  cursor: pointer;
+}
+.sessions__backgrounds2 {
+  margin-top: 100px;
+  cursor: pointer;
+}
+.sessions__p2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: -65px;
+  margin-left: 30px;
+}
+.sessions__backgrounds3 {
+  margin-top: 100px;
+  cursor: pointer;
+}
+.sessions__p3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: -100px;
+  margin-left: 30px;
+}
+.sessions__backgrounds4 {
+  cursor: pointer;
+  margin-top: 382px;
+  margin-left: -880px;
+}
+.sessions__p4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: -65px;
+  margin-left: 30px;
+}
+.sessions__backgrounds5 {
+  cursor: pointer;
+  margin-top: 382px;
+}
+.sessions__p5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: -100px;
+  margin-left: 30px;
+}
+
+.reviews__container {
+  height: 585px;
+}
+.reviews__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 200px;
+}
+.reviews__images {
+  display: flex;
+  justify-content: center;
+  gap: 244px;
+  margin-top: -80px;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.about__mg {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.about__span {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.about__span2 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: 120px;
+}
+.about__massage {
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
